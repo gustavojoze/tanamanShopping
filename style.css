@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+--corPrincipal:#1F5014;
+--corSecundaria:#FFC654;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F5014;
+}
+header .header_logo{
+    width: 9.5rem;
+    height: 9.5rem;
+    padding: 1.25rem;
+    border-radius: 100%;
+}
+
+.header_input{
+    width: 56.25rem;
+    height:1.9rem;
+    border-style: none;
+    border-radius: 24px;
+    align-self: flex-end;
+    margin-bottom: 1.9rem;
+}
+.header_icons{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffff;
+    border-bottom: none;
+    background-color: var(--corPrincipal);
+}
+
+nav ul li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #ffff;
+    font-size: 20px;
+    text-align: center;
+    border-right: 1px solid #ffff;
+    list-style: none;
+    padding: 10px;
+}
+nav ul li:active { 
+background-color: #426F38;
+}
+
+.active_img{
+    display: none;
+}
+nav ul li:active .active_img{
+    display: inline;
+}
+nav ul li:last-child{
+    border-right: none;
+}
+
+
+.nav_li{
+    position: relative;
+}
+.nav_li_subNav{
+    display: none;
+}
+.nav_li:hover div{
+    background-color: #426F38;
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -1.4345rem;
+}
+
+
+
+
+
+
+main{
+    background-color: var(--corSecundaria);
+    padding-inline: 50px ;
+    padding-block: 40px;
+}
+.main_container_cards{
+    display: flex;
+    gap: 20px;
+}
+
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: #1F5014;
+    border-radius: 27px;
+    padding-inline: 29px;
+    padding-block: 33px;
+    color: #ffff;
+}
+.card p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.card_img{
+    width:240px ;
+    height: 240px;
+}
+.card_botao{
+    width: 80px;
+    height: 30px;
+    color: #ffff;
+    background-color: #246515;
+    border: none;
+    border-radius: 10px;
+    float: right;
+}
+
+
