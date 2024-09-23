@@ -1,11 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_pagina-cadastro.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <img src="./assets/imgLogo.png" alt="">
+    <div class="page">
+        <label for="">Nome</label>
+        <input type="text" placeholder="Digite seu nome">
+        <label for="">Número de telefone</label> 
+        <input type="text" id="telefone" placeholder="Digite seu telefone" required pattern="[0-9]{4,5}-[0-9]{4}">
+        <label for="">Email</label>
+        <input type="text" placeholder="Digite um email">
+        <label for="">Senha</label>
+        <input type="password" placeholder="Digite uma senha">
+        <div class = "button-container">
+            <button>Cadastrar</button>
+        </div>    
+    </div>
 </body>
 </html>

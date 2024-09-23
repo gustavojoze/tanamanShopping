@@ -1,0 +1,132 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--corSecundaria);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.page{
+    margin-bottom: 100px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+}
+label{
+    display:block;
+    margin-block:7.5px;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--corPrincipal);
+}
+input{
+    width: 500px;
+    height: 50px;
+    border:none;
+    border-radius: 18px;
+    padding: 16px 14px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+}
+
+button{
+    width: 179px;
+    height: 60px;
+    background-color: var(--corPrincipal);
+    border: none;
+    border-radius: 12px;
+    color: #ffff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.esqueciSenha{
+    font-size: 12px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) { /* Tablets e laptops */
+    img {
+        width: 220px;
+        height: 220px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    input {
+        height: 50px; 
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        font-size: 20px;
+        max-width: 150px; 
+    }
+}
+
+@media (max-width: 768px) { /* Dispositivos menores */
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+    input {
+        height: 40px; 
+        width: 300px;
+        margin-bottom:15px;
+    }
+
+    button {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 600px) { /* Dispositivos menores, como iPhones */
+    input {
+        width: 90%; 
+    }
+
+    button {
+        max-width: 140px; 
+    }
+}
+
+
+@media (max-width: 480px) { /* Smartphones */
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    input {
+        height: 40px; 
+        width: 250px;
+    }
+
+    button {
+        height: 50px; 
+    }
+}
