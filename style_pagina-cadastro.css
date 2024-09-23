@@ -62,3 +62,71 @@ button{
     text-align: center;
 }
 
+@media (max-width: 1024px) { /* Tablets e laptops */
+    img {
+        width: 220px;
+        height: 220px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    input {
+        height: 50px; 
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        font-size: 20px;
+        max-width: 150px; 
+    }
+}
+
+@media (max-width: 768px) { /* Dispositivos menores */
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+    input {
+        height: 40px; 
+        width: 300px;
+        margin-bottom:15px;
+    }
+
+    button {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 600px) { /* Dispositivos menores, como iPhones */
+    input {
+        width: 90%; 
+    }
+
+    button {
+        max-width: 140px; 
+    }
+}
+
+
+@media (max-width: 480px) { /* Smartphones */
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    input {
+        height: 40px; 
+        width: 250px;
+    }
+
+    button {
+        height: 50px; 
+    }
+}
