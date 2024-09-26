@@ -1,108 +1,142 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <title>Pw-project</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/imgLogo.png" type="image/x-icon">
+    <title>Tamana</title>
 </head>
+
 <body>
     <script src="./app.js"></script>
     <header class="section_header">
-        
+
         <img src="./assets/imgLogo.png" class="header_logo" alt="imagem da logo">
-        
+
         <input type="search" placeholder="Digite o que você prescisa" class="header_input">
-        
+
         <div class="header_icons">
-        <a href="./pagina-login.html"><img src="./assets/borcelle/userIcon.svg" class="header_icon header_icons_perfil" alt="imagem do perfil"></a>
-        <img src="./assets/borcelle/carIcon.svg" class="header_icon header_icons_carrinho" alt="" onclick="switchCar()">
-        <div class="header_icons_cicleCount">
-        <p class="header_icons_cicleCount_p" >1</p>
-        </div>    
-        <div class="active_container_carrinho" >
-            <img src="./assets/iconBack.svg" class="container_carrinho_iconBack" alt="" onclick="switchCar()">
-            <div class="active_container_carrinho_main">
-                <p class="container_carrinho_title">
-                    Carrinho       
-                </p>
-                <div class="container_carrinho_produtos">
-                    <div class="carrinho_produtos_produto">
-                        <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
-                        <div>
-                            <p>Produto</p>
-                            <p>valor</p>
-                        </div>
-                        <div class="carrinho_cicleIconClose">
-                            <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
-                        </div>
-                    </div>
-                    <div class="carrinho_produtos_produto">
-                        <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
-                        <div>
-                            <p>Produto</p>
-                            <p>valor</p>
-                        </div>
-                        <div class="carrinho_cicleIconClose">
-                        <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
-                        </div>
-                    </div>
-                     <div class="carrinho_produtos_produto">
-                        <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
-                        <div>
-                            <p>Produto</p>
-                            <p>valor</p>
-                        </div>
-                        <div class="carrinho_cicleIconClose">
-                        <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
-                        </div>
-                    </div>
-                    <div class="carrinho_produtos_produto">
-                        <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
-                        <div>
-                            <p>Produto</p>
-                            <p>valor</p>
-                        </div>
-                        <div class="carrinho_cicleIconClose">
-                        <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
-                        </div>
-                    </div>
-                    <div class="carrinho_produtos_produto">
-                        <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
-                        <div>
-                            <p>Produto</p>
-                            <p>valor</p>
-                        </div>
-                        <div class="carrinho_cicleIconClose">
-                            <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
-                        </div>
-                    </div>
-                    <div class="carrinho_produtos_produto">
-                        <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
-                        <div>
-                            <p>Produto</p>
-                            <p>valor</p>
-                        </div>
-                        <div class="carrinho_cicleIconClose">
-                            <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
-                        </div>
-                    </div>
+            <a href="./pagina-login.html"><img src="./assets/borcelle/userIcon.svg"
+                    class="header_icon header_icons_perfil" alt="imagem do perfil"></a>
+            <div class="container-iconcar">
+                <img src="./assets/borcelle/carIcon.svg" class="header_icon header_icons_carrinho" alt=""
+                    onclick="switchCar()">
+                <div class="header_icons_cicleCount">
+                    <p class="header_icons_cicleCount_p">
+                        0
+                    </p>
                 </div>
-                <h2>
-                 Valor Total : 2000
-                </h2>
-                <button class="container_carrinho_button">
-                    Comprar
-                </button>
             </div>
-        </div>
+            <div class="active_container_carrinho">
+                <img src="./assets/iconBack.svg" class="container_carrinho_iconBack" alt="" onclick="switchCar()">
+                <div class="active_container_carrinho_main">
+                    <p class="container_carrinho_title">
+                        Carrinho
+                    </p>
+                    <div class="container_carrinho_produtos">
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+                            
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+                            
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+                            
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+                    </div>
+                    <h2>
+                        Valor Total : 2000
+                    </h2>
+                    <button class="container_carrinho_button">
+                        Comprar
+                    </button>
+                </div>
+            </div>
     </header>
     <nav>
         <ul>
             <li class="nav_li">
-                <img class="active_img"src="./assets/plantaVaso.svg" alt="" >
-                Vasos 
+                <img class="active_img" src="./assets/plantaVaso.svg" alt="">
+                Vasos
                 <div class="nav_li_subNav">
                     <a>quadrado</a>
                     <a>circular</a>
@@ -111,7 +145,7 @@
                 </div>
             </li>
             <li class="nav_li">
-                <img class="active_img"src="./assets/flor.svg" alt="">
+                <img class="active_img" src="./assets/flor.svg" alt="">
                 <p>
                     Flores
                 </p>
@@ -123,16 +157,26 @@
                 </div>
             </li>
             <li>
-                <img class="active_img"src="./assets/ferramenta.svg" alt="">
+                <img class="active_img" src="./assets/ferramenta.svg" alt="">
                 Ferramentas
             </li>
             <li>
-                <img class="active_img"src="./assets/terra.svg" alt="">
+                <img class="active_img" src="./assets/terra.svg" alt="">
                 Terra
             </li>
             <li>
-                <img class="active_img"src="./assets/planta.svg" alt="">
+                <img class="active_img" src="./assets/planta.svg" alt="">
                 Plantas
+            </li>
+            <li class="nav_li">
+                <img class="active_img" src="./assets/plantaVaso.svg" alt="">
+                Sementes
+                <div class="nav_li_subNav">
+                    <a>quadrado</a>
+                    <a>circular</a>
+                    <a>triangular</a>
+                    <a>aaa</a>
+                </div>
             </li>
         </ul>
     </nav>
@@ -142,7 +186,15 @@
                 <img src="./assets/samambai.png" alt="" class="card_img">
                 <p class="card_titulo">Samambaia</p>
                 <p class="card_preco">R$ 200</p>
-                <button class="card_botao">
+                <button class="card_botao" onclick="countBuy(event)">
+                    Comprar
+                </button>
+            </div>
+            <div class="card" onclick="switchModal()">
+                <img src="./assets/samambai.png" alt="" class="card_img">
+                <p class="card_titulo">Samambaia</p>
+                <p class="card_preco">R$ 200</p>
+                <button class="card_botao" onclick="countBuy(event)">
                     Comprar
                 </button>
             </div>
@@ -194,21 +246,13 @@
                     Comprar
                 </button>
             </div>
-            <div class="card" onclick="switchModal()">
-                <img src="./assets/samambai.png" alt="" class="card_img">
-                <p class="card_titulo">Samambaia</p>
-                <p class="card_preco">R$ 200</p>
-                <button class="card_botao">
-                    Comprar
-                </button>
-            </div>
         </div>
 
         <div class="contentModal">
             <div class="modal">
                 <img class="modal_iconCLose" src="./assets/iconClose.svg" alt="" onclick="switchModal()">
                 <h1>Samanbaia</h1>
-             
+
                 <img src="./assets/samambai.png" alt="">
                 <div class="modal_galeriaImagem">
                     <img src="" alt="">
@@ -216,7 +260,9 @@
                     <img src="" alt="">
                 </div>
                 <div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi vero nobis corrupti rerum ratione molestias iste officia voluptas impedit, doloremque asperiores commodi dolor ex exercitationem earum eius dignissimos, soluta expedita.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi vero nobis corrupti rerum
+                        ratione molestias iste officia voluptas impedit, doloremque asperiores commodi dolor ex
+                        exercitationem earum eius dignissimos, soluta expedita.</p>
                 </div>
                 <button class="card_botao">
                     Compre
@@ -225,7 +271,8 @@
         </div>
     </main>
     <footer>
-        <p>Feito por Gustavos José e Balbino - 2024</p> 
-     </footer>
+        <p>Feito por Gustavos José e Balbino - 2024</p>
+    </footer>
 </body>
+
 </html>
