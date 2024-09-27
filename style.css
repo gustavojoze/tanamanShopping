@@ -174,11 +174,15 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #ffff;
+    gap: 1px;
+    border-top: 1px solid #ffffff7e;
     border-bottom: none;
+    padding: 10px;
     background-color: var(--corPrincipal);
 }
 
+/*
+Codigo para outra versão
 nav ul li{
     width: 100%;
     display: flex;
@@ -189,6 +193,20 @@ nav ul li{
     font-size: 20px;
     text-align: center;
     border-right: 1px solid #ffff;
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+} */
+nav ul li{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #ffff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 24px;
     list-style: none;
     padding: 10px;
     cursor: pointer;

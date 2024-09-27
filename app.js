@@ -22,10 +22,7 @@
              } 
     }
      
-    const addProductCar = () =>{
-        const containerCar = document.querySelector('')
-        
-    }
+  
 
    let i = 1
 
