@@ -8,6 +8,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+        <link href=" https://fonts.cdnfonts.com/css/bukhari-script " rel="stylesheet">    
     <link rel="shortcut icon" href="assets/imgLogo.png" type="image/x-icon">
     <title>Tamana</title>
 </head>
@@ -15,11 +16,13 @@
 <body>
     <script src="./app.js"></script>
     <header class="section_header">
-
-        <img src="./assets/imgLogo.png" class="header_logo" alt="imagem da logo">
-
-        <input type="search" placeholder="Digite o que você prescisa" class="header_input">
-
+        <div class="header_circulo_logo">
+            <img src="./assets/borcellone.png" class="header_logo" alt="imagem da logo">
+        </div>
+            <div class="header_content_input">
+                <input type="search" placeholder="Digite o que você prescisa" class="header_input">
+                <img src="./assets/iconSearch.svg" class="header_input_icon" alt="">
+            </div>
         <div class="header_icons">
             <a href="./pagina-login.html"><img src="./assets/borcelle/userIcon.svg"
                     class="header_icon header_icons_perfil" alt="imagem do perfil"></a>
@@ -31,8 +34,8 @@
                         0
                     </p>
                 </div>
-            </div>
-            <div class="active_container_carrinho">
+        <div class="active_container_carrinho">
+            <div class="container_carrinho">
                 <img src="./assets/iconBack.svg" class="container_carrinho_iconBack" alt="" onclick="switchCar()">
                 <div class="active_container_carrinho_main">
                     <p class="container_carrinho_title">
@@ -45,7 +48,31 @@
                                 <p>Produto</p>
                                 <p>valor</p>
                             </div>
-                            
+
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+
                             <div class="carrinho_cicleIconClose">
                                 <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
                             </div>
@@ -56,7 +83,7 @@
                                 <p>Produto</p>
                                 <p>valor</p>
                             </div>
-                            
+
                             <div class="carrinho_cicleIconClose">
                                 <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
                             </div>
@@ -67,11 +94,75 @@
                                 <p>Produto</p>
                                 <p>valor</p>
                             </div>
-                            
+
                             <div class="carrinho_cicleIconClose">
                                 <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
                             </div>
                         </div>
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+                        
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+
+                                                
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+
+                                                
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+
+                                                
+                        <div class="carrinho_produtos_produto">
+                            <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
+                            <div>
+                                <p>Produto</p>
+                                <p>valor</p>
+                            </div>
+
+                            <div class="carrinho_cicleIconClose">
+                                <img src="./assets/iconClose.svg" alt="" class="carrinho_cicle_iconClose">
+                            </div>
+                        </div>
+
+                        
                         <div class="carrinho_produtos_produto">
                             <img src="./assets/samambai.png" class="carrinho_produto_img" alt="">
                             <div>
@@ -131,6 +222,7 @@
                     </button>
                 </div>
             </div>
+        </div>
     </header>
     <nav>
         <ul>
@@ -181,94 +273,240 @@
         </ul>
     </nav>
     <main class="section_main">
-        <div class="main_container_cards">
-            <div class="card" onclick="switchModal()">
-                <img src="./assets/samambai.png" alt="" class="card_img">
-                <p class="card_titulo">Samambaia</p>
-                <p class="card_preco">R$ 200</p>
-                <button class="card_botao" onclick="countBuy(event)">
-                    Comprar
-                </button>
-            </div>
-            <div class="card" onclick="switchModal()">
-                <img src="./assets/samambai.png" alt="" class="card_img">
-                <p class="card_titulo">Samambaia</p>
-                <p class="card_preco">R$ 200</p>
-                <button class="card_botao" onclick="countBuy(event)">
-                    Comprar
-                </button>
-            </div>
-            <div class="card" onclick="switchModal()">
-                <img src="./assets/samambai.png" alt="" class="card_img">
-                <p class="card_titulo">Samambaia</p>
-                <p class="card_preco">R$ 200</p>
-                <button class="card_botao" onclick="countBuy()">
-                    Comprar
-                </button>
-            </div>
-            <div class="card" onclick="switchModal()">
-                <img src="./assets/samambai.png" alt="" class="card_img">
-                <p class="card_titulo">Samambaia</p>
-                <p class="card_preco">R$ 200</p>
-                <button class="card_botao">
-                    Comprar
-                </button>
-            </div>
-            <div class="card" onclick="switchModal()">
-                <img src="./assets/samambai.png" alt="" class="card_img">
-                <p class="card_titulo">Samambaia</p>
-                <p class="card_preco">R$ 200</p>
-                <button class="card_botao">
-                    Comprar
-                </button>
-            </div>
-            <div class="card" onclick="switchModal()">
-                <img src="./assets/samambai.png" alt="" class="card_img">
-                <p class="card_titulo">Samambaia</p>
-                <p class="card_preco">R$ 200</p>
-                <button class="card_botao">
-                    Comprar
-                </button>
-            </div>
-            <div class="card" onclick="switchModal()">
-                <img src="./assets/samambai.png" alt="" class="card_img">
-                <p class="card_titulo">Samambaia</p>
-                <p class="card_preco">R$ 200</p>
-                <button class="card_botao">
-                    Comprar
-                </button>
-            </div>
-            <div class="card" onclick="switchModal()">
-                <img src="./assets/samambai.png" alt="" class="card_img">
-                <p class="card_titulo">Samambaia</p>
-                <p class="card_preco">R$ 200</p>
-                <button class="card_botao">
-                    Comprar
-                </button>
-            </div>
-        </div>
-
-        <div class="contentModal">
-            <div class="modal">
-                <img class="modal_iconCLose" src="./assets/iconClose.svg" alt="" onclick="switchModal()">
-                <h1>Samanbaia</h1>
-
-                <img src="./assets/samambai.png" alt="">
-                <div class="modal_galeriaImagem">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+        <div class="main_container_section">
+            <section class="main_section">
+                <h1>Vasos</h1>
+                <div class="container_cards">
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy(event)">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy(event)">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy()">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy(event)">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy(event)">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy()">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao">
+                            Comprar
+                        </button>
+                    </div>
                 </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi vero nobis corrupti rerum
-                        ratione molestias iste officia voluptas impedit, doloremque asperiores commodi dolor ex
-                        exercitationem earum eius dignissimos, soluta expedita.</p>
+            </section>
+
+            <section class="main_section">
+                <h1>Flores</h1>
+                <div class="container_cards">
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy(event)">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy(event)">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy()">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy(event)">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy(event)">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy()">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao">
+                            Comprar
+                        </button>
+                        </div>
+                    </div>
+              
+            </section>
+
+            <section class="main_section">
+                <h1>Planta</h1>
+                <div class="container_cards">
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy(event)">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy(event)">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy()">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy(event)">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy(event)">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao" onclick="countBuy()">
+                            Comprar
+                        </button>
+                    </div>
+                    <div class="card" onclick="switchModal()">
+                        <img src="./assets/samambai.png" alt="" class="card_img">
+                        <p class="card_titulo">Samambaia</p>
+                        <p class="card_preco">R$ 200</p>
+                        <button class="card_botao">
+                            Comprar
+                        </button>
+                    </div>
                 </div>
-                <button class="card_botao">
-                    Compre
-                </button>
             </div>
-        </div>
+        </section>
+
+            <div class="contentModal">
+                <div class="modal">
+                    <img class="modal_iconCLose" src="./assets/iconClose.svg" alt="" onclick="switchModal()">
+                    <h1>Samanbaia</h1>
+
+                    <img src="./assets/samambai.png" alt="">
+                    <div class="modal_galeriaImagem">
+                        <img src="./assets/samambai.png" alt="">
+                        <img src="./assets/samambai.png" alt="">
+                        <img src="./assets/samambai.png" alt="">
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi vero nobis corrupti rerum
+                            ratione molestias iste officia voluptas impedit, doloremque asperiores commodi dolor ex
+                            exercitationem earum eius dignissimos, soluta expedita.</p>
+                    </div>
+                    <button class="modal_botao">
+                        Compre
+                    </button>
+                </div>
+            </div>
     </main>
     <footer>
         <p>Feito por Gustavos José e Balbino - 2024</p>

@@ -53,6 +53,10 @@ button{
 button:last-child{
     margin-left: 140px;
 }
+button>a{
+text-decoration: none;
+color: #ffff;
+}
 .esqueciSenha{
     font-size: 12px;
     text-align: center;
