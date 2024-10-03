@@ -494,3 +494,954 @@ Responsivo sem mostrar o scroll
 .container_cards::-webkit-scrollbar {
     width: 0px;
 } */
+@media (max-width: 1024px) {
+    body {
+        padding-inline: 16px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+    }
+
+    .header_circulo_logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header_circulo_logo .header_logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header_icons {
+        display: flex;
+        gap: 12px;
+        margin-left: auto;
+    }
+
+    a {
+        height: 14px;
+    }
+
+    .header_icon_header_icons_perfil,
+    .header_icon_header_icons_carrinho {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .header_content_input {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+        position: relative;
+    }
+
+    .header_input {
+        font-size: 18px;
+        width: 85%;
+        height: 2.5rem;
+        padding: 8px;
+        padding-right: 50px;
+        box-sizing: border-box;
+    }
+
+    .header_input_icon {
+        position: absolute;
+        right: 65px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 22px;
+        height: 22px;
+        pointer-events: none;
+    }
+
+    .container_carrinho {
+        width: 75%;
+    }
+
+    .container_carrinho_produtos {
+        height: 350px;
+        overflow-y: auto;
+    }
+
+    .main_container_section h1 {
+        font-size: 38px;
+    }
+
+    .container_cards {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 12px;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: thin;
+    }
+
+    .container_cards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .card {
+        width: 180px;
+        height: 250px;
+        padding: 14px;
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card_img {
+        width: 120px;
+        height: 120px;
+        margin: 0;
+    }
+
+    .card p {
+        font-size: 18px;
+    }
+
+    .card_botao {
+        width: 80px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .modal {
+        width: 90%;
+        padding: 14px;
+    }
+
+    .modal_img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .modal_botao {
+        width: 120px;
+        height: 32px;
+    }
+
+    .modal h1 {
+        font-size: 28px;
+    }
+
+    nav {
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: thin;
+    }
+
+
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 12px; 
+        padding: 8px 0; 
+        margin: 0;
+        list-style: none;
+        width: auto;
+    }
+
+    nav ul li {
+        font-size: 18px; 
+        padding: 8px 12px; 
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+        white-space: nowrap;
+        backdrop-filter: blur(5px);
+    }
+
+    nav ul li:active .active_img {
+        width: 16px; 
+    }
+
+    .active_img {
+        width: 16px;
+    }
+
+    footer {
+        padding: 14px;
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+    }
+}
+@media (max-width: 900px){
+    .header_input_icon{
+        position: absolute;
+        right: 50px; 
+        top: 50%;
+        transform: translateY(-50%);
+        width: 22px; 
+        height: 22px;
+        pointer-events: none;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    body {
+        padding-inline: 10px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .header_circulo_logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .header_circulo_logo .header_logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .header_icons {
+        display: flex;
+        gap: 10px;
+        margin-left: auto;
+    }
+
+    a {
+        height: 15px;
+    }
+
+    .header_icon_header_icons_perfil,
+    .header_icon_header_icons_carrinho {
+        height: 35px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .header_content_input {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    .header_input {
+        font-size: 16px;
+        width: 80%;
+        height: 2.2rem;
+        padding: 8px;
+        padding-right: 45px;
+        box-sizing: border-box;
+    }
+
+    .header_input_icon {
+        position: absolute;
+        right: 60px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        pointer-events: none;
+    }
+
+    .container_carrinho {
+        width: 60%;
+    }
+
+    .container_carrinho_produtos {
+        height: 350px;
+        overflow-y: auto;
+    }
+
+    .main_container_section h1 {
+        font-size: 38px;
+    }
+
+    .container_cards {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 12px;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: thin;
+    }
+
+    .container_cards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .card {
+        width: 170px;
+        height: 230px;
+        padding: 12px;
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card_img {
+        width: 110px;
+        height: 110px;
+        margin: 0;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+
+    .card_botao {
+        width: 70px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .modal {
+        width: 85%;
+        padding: 12px;
+    }
+
+    .modal_img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .modal_botao {
+        width: 110px;
+        height: 30px;
+    }
+
+    .modal h1 {
+        font-size: 28px;
+    }
+
+    nav {
+       
+        overflow-x: auto; 
+        white-space: nowrap;
+        scrollbar-width: thin;
+    }
+
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        align-items: center;
+        gap: 10px;
+        padding: 6px 0;
+        margin: 0;
+        list-style: none;
+        width: auto; 
+    }
+
+    nav ul li {
+        font-size: 18px;
+        padding: 6px 10px;
+        background-color: rgba(255, 255, 255, 0.2); 
+        border-radius: 5px;
+        white-space: nowrap;
+        backdrop-filter: blur(5px);
+    }
+
+    nav ul li:active .active_img {
+        width: 14px;
+    }
+
+    .active_img {
+        width: 14px;
+    }
+
+    footer {
+        padding: 15px;
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    body {
+        padding-inline: 8px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px;
+    }
+
+    .header_circulo_logo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .header_circulo_logo .header_logo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .header_icons {
+        display: flex;
+        gap: 10px;
+        margin-left: auto;
+    }
+    
+    a {
+        height: 12px;
+    }
+
+    .header_icon_header_icons_perfil,
+    .header_icon_header_icons_carrinho {
+        height: 35px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .header_content_input {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+        position: relative;
+    }
+
+    .header_input {
+        width: 80%;
+        height: 2.2rem;
+        padding: 6px;
+        padding-right: 45px;
+        box-sizing: border-box;
+    }
+
+    .header_input_icon {
+        position: absolute;
+        right: 40px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        pointer-events: none;
+    }
+
+    .container_carrinho {
+        width: 70%;
+    }
+
+    .container_carrinho_produtos {
+        height: 320px;
+        overflow-y: auto;
+    }
+
+    .main_container_section h1 {
+        font-size: 36px;
+    }
+
+    .container_cards {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 10px;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: thin;
+    }
+
+    .container_cards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .card {
+        width: 160px;
+        height: 220px;
+        padding: 12px;
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card_img {
+        width: 110px;
+        height: 110px;
+        margin: 0;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+
+    .card_botao {
+        width: 65px;
+        height: 28px;
+        font-size: 13px;
+    }
+
+    .modal {
+        width: 85%;
+        padding: 12px;
+    }
+
+    .modal_img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .modal_botao {
+        width: 110px;
+        height: 30px;
+    }
+
+    .modal h1 {
+        font-size: 26px;
+    }
+
+    nav {
+        
+        overflow-x: auto; 
+        white-space: nowrap;
+        scrollbar-width: thin;
+    }
+
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        padding: 6px 0;
+        margin: 0;
+        list-style: none;
+        width: 660px;
+    }
+
+    nav ul li {
+        font-size: 15px;
+        padding: 6px 10px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+        white-space: nowrap;
+        backdrop-filter: blur(5px);
+    }
+
+    nav ul li:active .active_img {
+        width: 14px;
+    }
+
+    .active_img {
+        width: 14px;
+    }
+
+    footer {
+        padding: 12px;
+        text-align: center;
+        font-size: 13px;
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    body {
+        padding-inline: 5px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .header_circulo_logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .header_circulo_logo .header_logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .header_icons {
+        display: flex;
+        gap: 8px;
+        margin-left: auto;
+    }
+    
+    a {
+        height: 10px;
+    }
+
+    .header_icon_header_icons_perfil,
+    .header_icon_header_icons_carrinho {
+        height: 30px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .header_content_input {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    .header_input {
+        width: 75%;
+        height: 2rem;
+        padding: 5px;
+        padding-right: 40px; 
+        box-sizing: border-box;
+    }
+
+    .header_input_icon {
+        position: absolute;
+        right: 35px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 18px;
+        height: 18px;
+        pointer-events: none;
+    }
+
+    .container_carrinho {
+        width: 65%;
+    }
+
+    .container_carrinho_produtos {
+        height: 300px;
+        overflow-y: auto;
+    }
+
+    .main_container_section h1 {
+        font-size: 35px;
+    }
+
+    .container_cards {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 10px;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    .container_cards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .card {
+        width: 150px;
+        height: 210px;
+        padding: 10px;
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card_img {
+        width: 100px;
+        height: 100px;
+        margin: 0;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .card_botao {
+        width: 60px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .modal {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .modal_img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .modal_botao {
+        width: 100px;
+        height: 25px;
+    }
+
+    .modal h1 {
+        font-size: 25px;
+    }
+
+    nav {
+        overflow-x: auto; 
+        white-space: nowrap;
+        scrollbar-width: thin;
+    }
+    nav::-webkit-scrollbar {
+        display: none; 
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+        padding: 5px 0;
+        margin: 0;
+        list-style: none;
+        width: 610px; 
+    }
+
+    nav ul li {
+        font-size: 14px;
+        padding: 6px 10px;
+        background-color: rgba(255, 255, 255, 0.2); 
+        border-radius: 5px;
+        white-space: nowrap;
+        backdrop-filter: blur(5px); 
+    }
+
+    nav ul li:active .active_img {
+        width: 12px;
+    }
+
+    .active_img {
+        width: 12px;
+    }
+
+    footer {
+        padding: 10px;
+        text-align: center;
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 320px) {
+    body {
+        padding-inline: 5px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .header_circulo_logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header_circulo_logo .header_logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header_icons {
+        display: flex;
+        gap: 5px;
+        margin-left: auto;
+    }
+    
+    a {
+        height: 5px;
+    }
+
+    .header_icon_header_icons_perfil,
+    .header_icon_header_icons_carrinho {
+        height: 20px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .header_content_input {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .header_input {
+        width: 75%;
+        height: 1.5rem;
+        padding: 5px;
+        padding-right: 35px; 
+        box-sizing: border-box;
+    }
+
+ 
+    .header_input_icon {
+        position: absolute;
+        right: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 15px;
+        height: 15px;
+        pointer-events: none;
+    }
+
+    .container_carrinho {
+        width: 70%;
+    }
+
+    .container_carrinho_produtos {
+        height: 250px;
+        overflow-y: auto;
+    }
+
+    .main_container_section h1 {
+        font-size: 30px;
+    }
+
+    .container_cards {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 8px;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; 
+    }
+
+    .container_cards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .card {
+        width: 130px;
+        height: 200px;
+        padding: 10px;
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .card_img {
+        width: 90px;
+        height: 90px;
+        margin: 0;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .card_botao {
+        width: 50px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .modal {
+        width: 75%;
+        padding: 8px;
+    }
+
+    .modal_img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .modal_botao {
+        width: 90px;
+        height: 20px;
+    }
+
+    .modal h1 {
+        font-size: 22px;
+    }
+
+    nav {
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: none; 
+    }
+
+    nav::-webkit-scrollbar {
+        display: none; 
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        padding: 5px 0;
+        margin: 0;
+        list-style: none;
+        width: 465px;
+    }
+
+    nav ul li {
+        font-size: 10px;
+        padding: 5px 8px;
+        background-color: rgba(255, 255, 255, 0.2); 
+        border-radius: 5px;
+        white-space: nowrap;
+        backdrop-filter: blur(5px); 
+    }
+
+    nav ul li:active .active_img {
+        width: 10px;
+    }
+
+    .active_img {
+        width: 10px;
+    }
+
+    footer {
+        padding: 10px;
+        text-align: center;
+        font-size: 10px;
+        width: 100%;
+    }
+}
+
