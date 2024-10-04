@@ -35,18 +35,17 @@ document.querySelectorAll('.nav_li').forEach(item => {
 });
 
    
-   const switchModal = () => {
-        const modal = document.querySelector('.contentModal') 
-
-        const actualStyle = modal.style.display 
-        if (actualStyle == 'block')
-             {
-                 modal.style.display = 'none'
-             } 
-        else {
-             modal.style.display = 'block'
-             } 
-    }
+// const switchModal = () => {
+//     const modal = document.querySelector('.contentModal') 
+//     const actualStyle = modal.style.display 
+//     if (actualStyle == 'block')
+//          {
+//              modal.style.display = 'none'
+//          } 
+//     else {
+//          modal.style.display = 'block'
+//          } 
+// }
         
     const switchCar = () => {
         const containerCar = document.querySelector('.active_container_carrinho'); 
@@ -85,3 +84,4 @@ document.querySelectorAll('.nav_li').forEach(item => {
         iconCount_p.innerHTML = i++   
     }
 
+    

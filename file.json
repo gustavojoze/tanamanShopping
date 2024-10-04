@@ -1,0 +1,359 @@
+[
+    
+        {
+            "id": 1,
+            "nome": "Vaso de Cerâmica",
+            "descricao": "Vaso elegante de cerâmica para decoração.",
+            "categoria": "Vasos",
+            "preco": 50,
+            "url": "samambai"
+        },
+        {
+            "id": 2,
+            "nome": "Vaso de Vidro",
+            "descricao": "Vaso de vidro para plantas e flores.",
+            "categoria": "Vasos",
+            "preco": 75,
+            "url": "samambai"
+        },
+        {
+            "id": 3,
+            "nome": "Vaso de Madeira",
+            "descricao": "Vaso de madeira rústica para plantas.",
+            "categoria": "Vasos",
+            "preco": 60,
+            "url": "samambai"
+        },
+        {
+            "id": 4,
+            "nome": "Vaso Autoirrigável",
+            "descricao": "Vaso com sistema de autoirrigação.",
+            "categoria": "Vasos",
+            "preco": 80,
+            "url": "samambai"
+        },
+        {
+            "id": 5,
+            "nome": "Vaso Suspenso",
+            "descricao": "Vaso suspenso para varandas e interiores.",
+            "categoria": "Vasos",
+            "preco": 45,
+            "url": "samambai"
+        },
+        {
+            "id": 6,
+            "nome": "Vaso de Plástico",
+            "descricao": "Vaso leve e durável de plástico.",
+            "categoria": "Vasos",
+            "preco": 20,
+            "url": "samambai"
+        },
+        {
+            "id": 7,
+            "nome": "Vaso de Fibra",
+            "descricao": "Vaso resistente feito de fibra sintética.",
+            "categoria": "Vasos",
+            "preco": 65,
+            "url": "samambai"
+        },
+        {
+            "id": 8,
+            "nome": "Vaso de Metal",
+            "descricao": "Vaso de metal com acabamento polido.",
+            "categoria": "Vasos",
+            "preco": 85,
+            "url": "samambai"
+        },
+        {
+            "id": 9,
+            "nome": "Vaso Colorido",
+            "descricao": "Vaso de cerâmica colorido para decoração.",
+            "categoria": "Vasos",
+            "preco": 40,
+            "url": "samambai"
+        },
+        {
+            "id": 10,
+            "nome": "Vaso com Suporte de Ferro",
+            "descricao": "Vaso de cerâmica com suporte de ferro.",
+            "categoria": "Vasos",
+            "preco": 95,
+            "url": "samambai"
+        },
+        {
+            "id": 11,
+            "nome": "Vaso Cachepô",
+            "descricao": "Vaso de cachepô de tecido.",
+            "categoria": "Vasos",
+            "preco": 30,
+            "url": "samambai"
+        },
+        
+        {
+            "id": 12,
+            "nome": "Samambaia",
+            "descricao": "Planta ornamental de fácil cuidado.",
+            "categoria": "Planta",
+            "preco": 35,
+            "url": "samambai"
+        },
+        {
+            "id": 13,
+            "nome": "Cacto",
+            "descricao": "Planta suculenta resistente e fácil de cuidar.",
+            "categoria": "Planta",
+            "preco": 25,
+            "url": "samambai"
+        },
+        {
+            "id": 14,
+            "nome": "Suculenta",
+            "descricao": "Pequena planta suculenta, ideal para interiores.",
+            "categoria": "Planta",
+            "preco": 20,
+            "url": "samambai"
+        },
+        {
+            "id": 15,
+            "nome": "Bonsai",
+            "descricao": "Árvore miniatura cultivada para decoração.",
+            "categoria": "Planta",
+            "preco": 120,
+            "url": "samambai"
+        },
+        {
+            "id": 16,
+            "nome": "Palmeira Areca",
+            "descricao": "Planta tropical de grande porte.",
+            "categoria": "Planta",
+            "preco": 85,
+            "url": "samambai"
+        },
+        {
+            "id": 17,
+            "nome": "Ficus",
+            "descricao": "Planta ornamental de folhas largas.",
+            "categoria": "Planta",
+            "preco": 55,
+            "url": "samambai"
+        },
+        {
+            "id": 18,
+            "nome": "Costela-de-Adão",
+            "descricao": "Planta de grandes folhas recortadas.",
+            "categoria": "Planta",
+            "preco": 60,
+            "url": "samambai"
+        },
+        {
+            "id": 19,
+            "nome": "Zamioculca",
+            "descricao": "Planta resistente, ideal para ambientes internos.",
+            "categoria": "Planta",
+            "preco": 40,
+            "url": "samambai"
+        },
+        {
+            "id": 20,
+            "nome": "Espada de São Jorge",
+            "descricao": "Planta de fácil cultivo e baixa manutenção.",
+            "categoria": "Planta",
+            "preco": 35,
+            "url": "samambai"
+        },
+        {
+            "id": 21,
+            "nome": "Jiboia",
+            "descricao": "Planta de folhagem densa e decorativa.",
+            "categoria": "Planta",
+            "preco": 30,
+            "url": "samambai"
+        },
+        {
+            "id": 22,
+            "nome": "Orquídea",
+            "descricao": "Planta ornamental de flores delicadas.",
+            "categoria": "Planta",
+            "preco": 75,
+            "url": "samambai"
+        },
+        
+        {
+            "id": 23,
+            "nome": "Sementes de Girassol",
+            "descricao": "Sementes de girassol para plantio.",
+            "categoria": "Sementes",
+            "preco": 10,
+            "url": "samambai"
+        },
+        {
+            "id": 24,
+            "nome": "Sementes de Alface",
+            "descricao": "Sementes de alface de fácil cultivo.",
+            "categoria": "Sementes",
+            "preco": 5,
+            "url": "samambai"
+        },
+        {
+            "id": 25,
+            "nome": "Sementes de Tomate",
+            "descricao": "Sementes de tomate cereja.",
+            "categoria": "Sementes",
+            "preco": 12,
+            "url": "samambai"
+        },
+        {
+            "id": 26,
+            "nome": "Sementes de Manjericão",
+            "descricao": "Sementes para cultivo de manjericão.",
+            "categoria": "Sementes",
+            "preco": 7,
+            "url": "samambai"
+        },
+        {
+            "id": 27,
+            "nome": "Sementes de Coentro",
+            "descricao": "Sementes de coentro para temperos.",
+            "categoria": "Sementes",
+            "preco": 6,
+            "url": "samambai"
+        },
+        {
+            "id": 28,
+            "nome": "Sementes de Pimenta",
+            "descricao": "Sementes de pimenta malagueta.",
+            "categoria": "Sementes",
+            "preco": 8,
+            "url": "samambai"
+        },
+        {
+            "id": 29,
+            "nome": "Sementes de Abóbora",
+            "descricao": "Sementes de abóbora para cultivo.",
+            "categoria": "Sementes",
+            "preco": 15,
+            "url": "samambai"
+        },
+        {
+            "id": 30,
+            "nome": "Sementes de Rabanete",
+            "descricao": "Sementes de rabanete de crescimento rápido.",
+            "categoria": "Sementes",
+            "preco": 9,
+            "url": "samambai"
+        },
+        {
+            "id": 31,
+            "nome": "Sementes de Cenoura",
+            "descricao": "Sementes para cultivo de cenoura.",
+            "categoria": "Sementes",
+            "preco": 10,
+            "url": "samambai"
+        },
+        {
+            "id": 32,
+            "nome": "Sementes de Espinafre",
+            "descricao": "Sementes de espinafre para plantio.",
+            "categoria": "Sementes",
+            "preco": 11,
+            "url": "samambai"
+        },
+        {
+            "id": 33,
+            "nome": "Sementes de Beterraba",
+            "descricao": "Sementes de beterraba para cultivo.",
+            "categoria": "Sementes",
+            "preco": 10,
+            "url": "samambai"
+        },
+        
+        {
+            "id": 34,
+            "nome": "Rosa Vermelha",
+            "descricao": "Flor de rosa vermelha, símbolo de amor.",
+            "categoria": "Flores",
+            "preco": 40,
+            "url": "samambai"
+        },
+        {
+            "id": 35,
+            "nome": "Tulipa",
+            "descricao": "Tulipa delicada e colorida.",
+            "categoria": "Flores",
+            "preco": 50,
+            "url": "samambai"
+        },
+        {
+            "id": 36,
+            "nome": "Girassol",
+            "descricao": "Flor de girassol grande e vibrante.",
+            "categoria": "Flores",
+            "preco": 35,
+            "url": "samambai"
+        },
+        {
+            "id": 37,
+            "nome": "Margarida",
+            "descricao": "Flor simples e delicada, de cor branca.",
+            "categoria": "Flores",
+            "preco": 25,
+            "url": "samambai"
+        },
+        {
+            "id": 38,
+            "nome": "Orquídea Branca",
+            "descricao": "Orquídea de flores brancas elegantes.",
+            "categoria": "Flores",
+            "preco": 70,
+            "url": "samambai"
+        },
+        {
+            "id": 39,
+            "nome": "Lírio",
+            "descricao": "Flor de lírio, símbolo de pureza.",
+            "categoria": "Flores",
+            "preco": 60,
+            "url": "samambai"
+        },
+        {
+            "id": 40,
+            "nome": "Hortênsia",
+            "descricao": "Flor de hortênsia com pétalas grandes.",
+            "categoria": "Flores",
+            "preco": 55,
+            "url": "samambai"
+        },
+        {
+            "id": 41,
+            "nome": "Cravo",
+            "descricao": "Flor de cravo, conhecida por suas pétalas densas.",
+            "categoria": "Flores",
+            "preco": 30,
+            "url": "samambai"
+        },
+        {
+            "id": 42,
+            "nome": "Dália",
+            "descricao": "Flor de dália com cores vibrantes.",
+            "categoria": "Flores",
+            "preco": 45,
+            "url": "samambai"
+        },
+        {
+            "id": 43,
+            "nome": "Violeta",
+            "descricao": "Pequena flor de violeta, ideal para interiores.",
+            "categoria": "Flores",
+            "preco": 20,
+            "url": "samambai"
+        },
+        {
+            "id": 44,
+            "nome": "Jasmim",
+            "descricao": "Flor de jasmim, famosa por sua fragrância.",
+            "categoria": "Flores",
+            "preco": 65,
+            "url": "samambai"
+        }
+    ]
+    
