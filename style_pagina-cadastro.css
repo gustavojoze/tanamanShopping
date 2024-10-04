@@ -108,7 +108,7 @@ button{
         cursor: pointer;
         position: absolute;
         right: 5%;
-        top: 45%; /* Posiciona verticalmente no centro */
+        top: 45%;
         color: #5e5050;
     }
 }
@@ -145,7 +145,7 @@ button{
         cursor: pointer;
         position: absolute;
         right: 5%;
-        top: 45%; /* Posiciona verticalmente no centro */
+        top: 45%; 
         color: #5e5050;
     }
 }
@@ -177,7 +177,7 @@ button{
         cursor: pointer;
         position: absolute;
         right: 5%;
-        top: 40%; /* Posiciona verticalmente no centro */
+        top: 40%; 
         color: #5e5050;
     }
 }
@@ -206,7 +206,7 @@ button{
         cursor: pointer;
         position: absolute;
         right: 15%;
-        top: 40%; /* Posiciona verticalmente no centro */
+        top: 40%; 
         color: #5e5050;
     }
     
@@ -234,7 +234,7 @@ button{
         cursor: pointer;
         position: absolute;
         right: 5%;
-        top: 40%; /* Posiciona verticalmente no centro */
+        top: 40%; 
         color: #5e5050;
     }
     
