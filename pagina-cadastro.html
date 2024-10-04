@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style_pagina-cadastro.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
@@ -12,15 +13,27 @@
     <div class="page">
         <label for="">Nome</label>
         <input type="text" placeholder="Digite seu nome">
-        <label for="">Número de telefone</label> 
-        <input type="text" id="telefone" placeholder="Digite seu telefone" required pattern="[0-9]{4,5}-[0-9]{4}">
         <label for="">Email</label>
         <input type="text" placeholder="Digite um email">
+        <label for="">CPF</label>
+        <input type="text" placeholder="Digite seu CPF" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})">
+        <label for="">Número de telefone</label> 
+        <input type="text" id="telefone" placeholder="Digite seu telefone" required pattern="[0-9]{4,5}-[0-9]{4}">
+        <div>
         <label for="">Senha</label>
-        <input type="password" placeholder="Digite uma senha">
+        <input type="password" placeholder="Digite uma senha" id="senha">
+        <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
+        </div>
+
+        <div>
+        <label for="">Confirme a senha</label>
+        <input type="password" placeholder="Digite sua senha" id="confirmaSenha">
+        <i class="bi bi-eye-fill" id="btn-conf-senha" onclick="mostrarSenhaConf()"></i>
+        </div>
         <div class = "button-container">
             <button>Cadastrar</button>
         </div>    
     </div>
+    <script src="app.js"></script>
 </body>
 </html>

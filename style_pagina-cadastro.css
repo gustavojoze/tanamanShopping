@@ -22,7 +22,7 @@ body{
 img{
     width: 250px;
     height: 250px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 label{
     display:block;
@@ -32,12 +32,26 @@ label{
     color: var(--corPrincipal);
 }
 input{
-    width: 500px;
-    height: 50px;
+    width: 300px;
+    height: 40px;
     border:none;
     border-radius: 18px;
     padding: 16px 14px;
+    outline: 0;
 }
+div{
+    position: relative;
+}
+
+div i{
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    top: 50%; /* Posiciona verticalmente no centro */
+    color: #5e5050;
+}
+
 
 .button-container {
     display: flex;
@@ -46,33 +60,35 @@ input{
 }
 
 button{
-    width: 179px;
-    height: 60px;
+    width: 160px;
+    height: 50px;
     background-color: var(--corPrincipal);
     border: none;
     border-radius: 12px;
     color: #ffff;
     margin-top: 30px;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 18px;
+    cursor: pointer;
 }
 
 .esqueciSenha{
     font-size: 12px;
     text-align: center;
 }
-
 @media (max-width: 1024px) { /* Tablets e laptops */
     img {
-        width: 220px;
-        height: 220px;
+        width: 300px;
+        height: 300px;
+        margin-top:430px;
     }
 
     label {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     input {
+        width: 350px;
         height: 50px; 
         font-size: 18px;
         margin-bottom: 15px;
@@ -81,6 +97,56 @@ button{
     button {
         font-size: 20px;
         max-width: 150px; 
+    }
+
+    div{
+        position: relative;
+    }
+    
+    div i{
+        font-size: 25px;
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+        top: 45%; /* Posiciona verticalmente no centro */
+        color: #5e5050;
+    }
+}
+
+
+@media (max-width: 900px) { /* Tablets e laptops */
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    label {
+        font-size: 22px;
+    }
+
+    input {
+        width: 350px;
+        height: 50px; 
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        font-size: 20px;
+        max-width: 150px; 
+    }
+
+    div{
+        position: relative;
+    }
+    
+    div i{
+        font-size: 25px;
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+        top: 45%; /* Posiciona verticalmente no centro */
+        color: #5e5050;
     }
 }
 
@@ -102,16 +168,48 @@ button{
     button {
         font-size: 17px;
     }
+    div{
+        position: relative;
+    }
+    
+    div i{
+        font-size: 25px;
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+        top: 40%; /* Posiciona verticalmente no centro */
+        color: #5e5050;
+    }
 }
 
 @media (max-width: 600px) { /* Dispositivos menores, como iPhones */
+    img {
+        width: 200px;
+        height: 200px;
+        margin-top: 130px;
+    }
     input {
+        font-size: 16px;
         width: 90%; 
     }
 
     button {
         max-width: 140px; 
     }
+
+    div{
+        position: relative;
+    }
+    
+    div i{
+        font-size: 25px;
+        cursor: pointer;
+        position: absolute;
+        right: 15%;
+        top: 40%; /* Posiciona verticalmente no centro */
+        color: #5e5050;
+    }
+    
 }
 
 
@@ -119,12 +217,27 @@ button{
     img {
         width: 200px;
         height: 200px;
+        margin-top: 180px;
     }
 
     input {
+        font-size: 16px;
         height: 40px; 
         width: 250px;
     }
+    div{
+        position: relative;
+    }
+    
+    div i{
+        font-size: 25px;
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+        top: 40%; /* Posiciona verticalmente no centro */
+        color: #5e5050;
+    }
+    
 
     button {
         height: 50px; 
